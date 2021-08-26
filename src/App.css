@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+@media (min-width: 476px) and (max-width: 3333333px) {
+    input {
+        height: 50px;
+        width: 70px;
+        border-radius: 10px;
+        outline: none;
+    }
+
+    input::placeholder {
+        text-align: center;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .title-text {
+        font-size: 27px;
+    }
+
+    .warning-text {
+        font-size: 21px;
+    }
+
+    .danger-text {
+        font-size: 19px;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media (min-width: 0) and (max-width: 475px) {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    body {
+        box-sizing: border-box;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    .title-text {
+        font-size: 15px;
+    }
 
-.App-link {
-  color: #61dafb;
-}
+    .warning-text {
+        font-size: 13px;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .danger-text {
+        font-size: 11px;
+    }
+
+    input {
+        outline: none;
+        border-radius: 5px;
+        width: 50px;
+        height: 30px;
+    }
+
+    input::placeholder {
+        text-align: center;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
 }
