@@ -89,6 +89,11 @@ function App() {
                     alt="graph" className={'img-thumbnail mt-5'}/>
             </div>
         </div>}
+        <div>
+            <div className="col-3 offset-8 py-5">
+                <p className="title-text text-warning float-end"><i>Muallif : Akramjon Rahmonov</i></p>
+            </div>
+        </div>
     </div>
 }
 
